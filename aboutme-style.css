@@ -20,3 +20,13 @@ p {
     width: 300px;
     height: 250px;
 }
+a:visited, a:link {
+    text-decoration: none;
+}
+a:hover, a:active {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 150%;
+}
